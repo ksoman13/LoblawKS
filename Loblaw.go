@@ -274,10 +274,10 @@ func (t *ABC) Init(stub shim.ChaincodeStubInterface, function string, args []str
 	
 		
 	// setting up the users role
-	stub.PutState("user_type1_1", []byte("WARE_HOUSE"))
-	stub.PutState("user_type1_2", []byte("MEDTURN"))
-	stub.PutState("user_type1_3", []byte("DISPOSAL"))
-	stub.PutState("user_type1_4", []byte("MANUFACTURER"))
+	stub.PutState("user_type2_1", []byte("WARE_HOUSE"))
+	stub.PutState("user_type2_2", []byte("MEDTURN"))
+	stub.PutState("user_type2_3", []byte("DISPOSAL"))
+	stub.PutState("user_type2_4", []byte("MANUFACTURER"))
 
 
 	// setting up the users role
